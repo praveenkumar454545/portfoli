@@ -1,0 +1,118 @@
+/* Mobile Styles for screens up to 768px */
+@media (max-width: 768px) {
+    /* Navbar */
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 0 20px;
+    }
+
+    .logo span {
+        font-size: 20px;
+    }
+
+    .navlinks {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .navlinks .navlink {
+        font-size: 14px;
+    }
+
+    /* Home Section */
+    .homecontainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .homeimg img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .h1 {
+        font-size: 22px;
+    }
+
+    .h3 {
+        font-size: 18px;
+    }
+
+    .vv {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    /* Skills Section */
+    .skills {
+        font-size: 24px;
+    }
+
+    .skmainbox {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sksub1, .sksub2 {
+        width: 90%;
+    }
+
+    /* About & Education Section */
+    .abhead {
+        font-size: 24px;
+    }
+
+    .ab2 {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .btnn {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    /* Links Section */
+    .linkh {
+        font-size: 24px;
+    }
+
+    .all-links a {
+        font-size: 20px;
+        margin: 8px;
+    }
+
+    /* Contact Section */
+    .cnth {
+        font-size: 24px;
+    }
+
+    .forms {
+        width: 90%;
+    }
+
+    .frm1 input,
+    .frm1 textarea {
+        font-size: 14px;
+    }
+
+    .pbtn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Adjust button text wrapping */
+    .btn, .btnn {
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+    }
+}

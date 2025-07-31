@@ -1,0 +1,282 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navbar */
+#nav {
+    background-color: #24292e;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navlinks .navlink {
+    margin-left: 20px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navlinks .navlink:hover {
+    color: #1abc9c;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+}
+
+.homecontainer {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.homeimg img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.home-content {
+    max-width: 600px;
+}
+
+.h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.h1 span {
+    color: #1abc9c;
+}
+
+.h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.vv {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1abc9c;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #16a085;
+}
+
+/* About Section */
+.abhead {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.abhead span {
+    color: #1abc9c;
+}
+
+.ab2 {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.abh {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.abd, .abd1 {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btnn {
+    display: inline-block;
+    background: #1abc9c;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.btnn:hover {
+    background: #16a085;
+}
+
+/* Skills */
+.skills {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.skills span {
+    color: #1abc9c;
+}
+
+.skmainbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sksub1, .sksub2 {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.tech, .proff {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+}
+
+.skts, .profs {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.skts span, .profs span {
+    float: right;
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+/* Education Section */
+.abt {
+    text-align: center;
+}
+
+.abt span {
+    color: #1abc9c;
+}
+
+/* Links Section */
+.mlinks {
+    text-align: center;
+}
+
+.linkh {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.all-links a {
+    margin: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.all-links a:hover {
+    color: #1abc9c;
+}
+
+/* Contact Form */
+.forms {
+    max-width: 600px;
+    margin: auto;
+}
+
+.frm1 {
+    margin: 15px 0;
+}
+
+.frm1 span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.pbtn {
+    display: inline-block;
+    background: #1abc9c;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pbtn:hover {
+    background: #16a085;
+}
